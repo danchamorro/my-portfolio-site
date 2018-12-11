@@ -10,18 +10,18 @@ class App extends Component {
         <Layout>
           <Header className="header-color" title="DAN CHAMORRO" scroll>
             <Navigation>
-              <a href="/resume">Resume</a>
-              <a href="/about-me">About Me</a>
-              <a href="/projects">Projects</a>
-              <a href="/contact">Contact</a>
+              <a href="/">Resume</a>
+              <a href="/">About Me</a>
+              <a href="/">Projects</a>
+              <a href="/">Contact</a>
             </Navigation>
           </Header>
           <Drawer title="Title">
             <Navigation>
-              <a href="/resume">Resume</a>
-              <a href="/about-me">About Me</a>
-              <a href="/projects">Projects</a>
-              <a href="/contact">Contact</a>
+              <a href="/">Resume</a>
+              <a href="/">About Me</a>
+              <a href="/">Projects</a>
+              <a href="/">Contact</a>
             </Navigation>
           </Drawer>
           <Content>
