@@ -16,6 +16,24 @@ class LandingPage extends Component {
                 HTML/CSS | Bootstrap | React | Python | NodeJS | Express |
                 MongoDB | MySQL
               </p>
+              <div className="social-links">
+                {/* Linkedin */}
+                <a href="/" target="_blank">
+                  <i className="fa fa-linkedin-square" aria-hidden="true" />
+                </a>
+                {/* Githb */}
+                <a href="/" target="_blank">
+                  <i className="fa fa-github-square" aria-hidden="true" />
+                </a>
+                {/* Twitter */}
+                <a href="/" target="_blank">
+                  <i className="fa fa-twitter-square" aria-hidden="true" />
+                </a>
+                {/* Facebook */}
+                <a href="/" target="_blank">
+                  <i className="fa fa-facebook-square" aria-hidden="true" />
+                </a>
+              </div>
             </div>
           </Cell>
         </Grid>
