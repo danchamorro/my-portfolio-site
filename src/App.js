@@ -8,7 +8,15 @@ class App extends Component {
     return (
       <div className="demo-big-content">
         <Layout>
-          <Header className="header-color" title="DAN CHAMORRO" scroll>
+          <Header
+            className="header-color"
+            title={
+              <a href="/" className="title">
+                Dan Chamorro
+              </a>
+            }
+            scroll
+          >
             <Navigation>
               <a href="/">Resume</a>
               <a href="/">About Me</a>
@@ -16,7 +24,7 @@ class App extends Component {
               <a href="/">Contact</a>
             </Navigation>
           </Header>
-          <Drawer title="Title">
+          <Drawer title="Dan Chamorro">
             <Navigation>
               <a href="/">Resume</a>
               <a href="/">About Me</a>
