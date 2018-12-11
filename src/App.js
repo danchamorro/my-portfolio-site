@@ -18,16 +18,16 @@ class App extends Component {
             scroll
           >
             <Navigation>
-              <a href="/">Resume</a>
               <a href="/">About Me</a>
+              <a href="/">Resume</a>
               <a href="/">Projects</a>
               <a href="/">Contact</a>
             </Navigation>
           </Header>
           <Drawer title="Dan Chamorro">
             <Navigation>
-              <a href="/">Resume</a>
               <a href="/">About Me</a>
+              <a href="/">Resume</a>
               <a href="/">Projects</a>
               <a href="/">Contact</a>
             </Navigation>
