@@ -74,7 +74,7 @@ class Contact extends Component {
                 />
               </div>
               <button
-                type="button"
+                type="submit"
                 id="submit"
                 name="submit"
                 className="btn btn-dark"
