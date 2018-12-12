@@ -21,23 +21,24 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Contact Me</h2>
             <hr />
-            <form
+            {/* <form
+              method="POST"
               name="contact"
-              method="post"
               data-netlify="true"
               data-netlify-honeypot="bot-field"
             >
               <br />
               <div className="form-group">
                 <input
-                  name="name"
                   type="text"
                   className="form-control"
+                  id="name"
+                  name="name"
                   placeholder="Name"
                   required
                 />
               </div>
-              {/* <div className="form-group">
+              <div className="form-group">
                 <input
                   type="email"
                   className="form-control"
@@ -77,15 +78,36 @@ class Contact extends Component {
                   rows="7"
                   name="message"
                 />
-              </div> */}
+              </div>
               <button
                 // type="submit"
-                // id="submit"
-                // name="submit"
+                id="submit"
+                name="submit"
                 className="btn btn-dark"
               >
                 Submit
               </button>
+            </form> */}
+            <form name="contact" method="post">
+              <input type="hidden" name="form-name" value="contact" />
+              <p>
+                <label>
+                  Your Name: <input type="text" name="name" />
+                </label>
+              </p>
+              <p>
+                <label>
+                  Your Email: <input type="email" name="email" />
+                </label>
+              </p>
+              <p>
+                <label>
+                  Message: <textarea name="message" />
+                </label>
+              </p>
+              <p>
+                <button type="submit">Send</button>
+              </p>
             </form>
           </Cell>
         </Grid>
