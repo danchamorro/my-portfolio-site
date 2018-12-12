@@ -80,8 +80,8 @@ class Contact extends Component {
               </div> */}
               <button
                 // type="submit"
-                id="submit"
-                name="submit"
+                // id="submit"
+                // name="submit"
                 className="btn btn-dark"
               >
                 Submit
