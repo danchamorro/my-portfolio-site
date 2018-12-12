@@ -21,11 +21,17 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Contact Me</h2>
             <hr />
-            <form method="POST" name="contact" data-netlify="true" netlify>
+            <form
+              method="POST"
+              name="contact"
+              data-netlify="true"
+              data-netlify-honeypot="bot-field"
+              netlify
+            >
               <br />
               <div className="form-group">
                 <input
-                  type="hidden"
+                  type="text"
                   className="form-control"
                   id="name"
                   name="name"
@@ -35,7 +41,7 @@ class Contact extends Component {
               </div>
               <div className="form-group">
                 <input
-                  type="hidden"
+                  type="email"
                   className="form-control"
                   id="email"
                   name="email"
@@ -45,7 +51,7 @@ class Contact extends Component {
               </div>
               <div className="form-group">
                 <input
-                  type="hidden"
+                  type="text"
                   className="form-control"
                   id="mobile"
                   name="mobile"
@@ -55,7 +61,7 @@ class Contact extends Component {
               </div>
               <div className="form-group">
                 <input
-                  type="hidden"
+                  type="text"
                   className="form-control"
                   id="subject"
                   name="subject"
@@ -66,7 +72,7 @@ class Contact extends Component {
               <div className="form-group">
                 <textarea
                   className="form-control"
-                  type="hidden"
+                  type="textarea"
                   id="message"
                   placeholder="Message"
                   maxlength="140"
