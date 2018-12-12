@@ -21,7 +21,7 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Contact Me</h2>
             <hr />
-            <form method="post" netlify>
+            <form method="post" name="contact" netlify>
               <br />
               <div className="form-group">
                 <input
