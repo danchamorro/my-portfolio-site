@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
+import { Grid, Cell } from "react-mdl";
 import personImage from "../img/pcman.jpg";
 
 class Contact extends Component {
@@ -71,8 +71,6 @@ class Contact extends Component {
                   name="message"
                   className="form-control"
                   placeholder="Message"
-                  // maxLength="140"
-                  // rows="7"
                 />
               </div>
               <button type="submit" className="btn btn-dark">
