@@ -28,7 +28,7 @@ class App extends Component {
             <Navigation>
               <a href="/">About Me</a>
               <a href="/">Resume</a>
-              <a href="/">Projects</a>
+              <a href="/projects">Projects</a>
               <a href="/">Contact</a>
             </Navigation>
           </Drawer>
