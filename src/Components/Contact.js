@@ -25,7 +25,7 @@ class Contact extends Component {
               <br />
               <div className="form-group">
                 <input
-                  type="text"
+                  type="hidden"
                   className="form-control"
                   id="name"
                   name="name"
@@ -35,7 +35,7 @@ class Contact extends Component {
               </div>
               <div className="form-group">
                 <input
-                  type="email"
+                  type="hidden"
                   className="form-control"
                   id="email"
                   name="email"
@@ -45,7 +45,7 @@ class Contact extends Component {
               </div>
               <div className="form-group">
                 <input
-                  type="text"
+                  type="hidden"
                   className="form-control"
                   id="mobile"
                   name="mobile"
@@ -55,7 +55,7 @@ class Contact extends Component {
               </div>
               <div className="form-group">
                 <input
-                  type="text"
+                  type="hidden"
                   className="form-control"
                   id="subject"
                   name="subject"
@@ -66,7 +66,7 @@ class Contact extends Component {
               <div className="form-group">
                 <textarea
                   className="form-control"
-                  type="textarea"
+                  type="hidden"
                   id="message"
                   placeholder="Message"
                   maxlength="140"
