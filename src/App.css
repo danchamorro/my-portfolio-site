@@ -85,3 +85,7 @@
   font-weight: 500;
   text-decoration: none;
 }
+
+.projects-grid {
+  display: flex;
+}
