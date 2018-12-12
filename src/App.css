@@ -89,3 +89,8 @@
 .projects-grid {
   display: flex;
 }
+
+.mdl-card__actions.mdl-card--border {
+  display: flex;
+  justify-content: space-evenly;
+}
