@@ -21,7 +21,7 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Contact Me</h2>
             <hr />
-            <form method="post" name="contact" netlify>
+            <form method="POST" name="contact" netlify>
               <br />
               <div className="form-group">
                 <input
@@ -35,7 +35,7 @@ class Contact extends Component {
               </div>
               <div className="form-group">
                 <input
-                  type="text"
+                  type="email"
                   className="form-control"
                   id="email"
                   name="email"
@@ -71,6 +71,7 @@ class Contact extends Component {
                   placeholder="Message"
                   maxlength="140"
                   rows="7"
+                  name="message"
                 />
               </div>
               <button
