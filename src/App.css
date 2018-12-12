@@ -134,3 +134,12 @@
   font-size: 40px;
   padding-right: 5rem;
 }
+
+.contact-list a {
+  color: black;
+  text-decoration: none;
+}
+
+.btn-dark {
+  font-family: "Anton", sans-serif;
+}

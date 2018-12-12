@@ -21,26 +21,67 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Contact Me</h2>
             <hr />
-            <div className="contact-list">
-              <List>
-                <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "25px", fontFamily: "Anton" }}
-                  >
-                    <i className="fa fa-phone-square" aria-hidden="true" />
-                    716-704-6634
-                  </ListItemContent>
-                </ListItem>
-                <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "25px", fontFamily: "Anton" }}
-                  >
-                    <i className="fa fa-envelope" aria-hidden="true" />
-                    dan@danchamorro.com
-                  </ListItemContent>
-                </ListItem>
-              </List>
-            </div>
+            <form method="post" netlify>
+              <br />
+              <div className="form-group">
+                <input
+                  type="text"
+                  className="form-control"
+                  id="name"
+                  name="name"
+                  placeholder="Name"
+                  required
+                />
+              </div>
+              <div className="form-group">
+                <input
+                  type="text"
+                  className="form-control"
+                  id="email"
+                  name="email"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+              <div className="form-group">
+                <input
+                  type="text"
+                  className="form-control"
+                  id="mobile"
+                  name="mobile"
+                  placeholder="Mobile Number"
+                  required
+                />
+              </div>
+              <div className="form-group">
+                <input
+                  type="text"
+                  className="form-control"
+                  id="subject"
+                  name="subject"
+                  placeholder="Subject"
+                  required
+                />
+              </div>
+              <div className="form-group">
+                <textarea
+                  className="form-control"
+                  type="textarea"
+                  id="message"
+                  placeholder="Message"
+                  maxlength="140"
+                  rows="7"
+                />
+              </div>
+              <button
+                type="button"
+                id="submit"
+                name="submit"
+                className="btn btn-dark"
+              >
+                Submit
+              </button>
+            </form>
           </Cell>
         </Grid>
       </div>
