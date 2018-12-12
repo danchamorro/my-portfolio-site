@@ -21,7 +21,7 @@ class App extends Component {
               <a href="/">About Me</a>
               <a href="/">Resume</a>
               <a href="/projects">Projects</a>
-              <a href="/">Contact</a>
+              <a href="/contact">Contact</a>
             </Navigation>
           </Header>
           <Drawer title="Dan Chamorro">
@@ -29,7 +29,7 @@ class App extends Component {
               <a href="/">About Me</a>
               <a href="/">Resume</a>
               <a href="/projects">Projects</a>
-              <a href="/">Contact</a>
+              <a href="/contact">Contact</a>
             </Navigation>
           </Drawer>
           <Content>
