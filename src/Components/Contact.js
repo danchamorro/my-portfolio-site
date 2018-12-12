@@ -21,73 +21,6 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Contact Me</h2>
             <hr />
-            {/* <form
-              method="POST"
-              name="contact"
-              data-netlify="true"
-              data-netlify-honeypot="bot-field"
-            >
-              <br />
-              <div className="form-group">
-                <input
-                  type="text"
-                  className="form-control"
-                  id="name"
-                  name="name"
-                  placeholder="Name"
-                  required
-                />
-              </div>
-              <div className="form-group">
-                <input
-                  type="email"
-                  className="form-control"
-                  id="email"
-                  name="email"
-                  placeholder="Email"
-                  required
-                />
-              </div>
-              <div className="form-group">
-                <input
-                  type="text"
-                  className="form-control"
-                  id="mobile"
-                  name="mobile"
-                  placeholder="Mobile Number"
-                  required
-                />
-              </div>
-              <div className="form-group">
-                <input
-                  type="text"
-                  className="form-control"
-                  id="subject"
-                  name="subject"
-                  placeholder="Subject"
-                  required
-                />
-              </div>
-              <div className="form-group">
-                <textarea
-                  className="form-control"
-                  type="textarea"
-                  id="message"
-                  placeholder="Message"
-                  maxlength="140"
-                  rows="7"
-                  name="message"
-                />
-              </div>
-              <button
-                // type="submit"
-                id="submit"
-                name="submit"
-                className="btn btn-dark"
-              >
-                Submit
-              </button>
-            </form> */}
             <form name="contact" method="post">
               <div className="form-group">
                 <input type="hidden" name="form-name" value="contact" />
@@ -133,14 +66,13 @@ class Contact extends Component {
                 />
               </div>
               {/* Message */}
-
               <div className="form-group">
                 <textarea
                   name="message"
                   className="form-control"
                   placeholder="Message"
-                  maxLength="140"
-                  rows="7"
+                  // maxLength="140"
+                  // rows="7"
                 />
               </div>
               <button type="submit" className="btn btn-dark">
