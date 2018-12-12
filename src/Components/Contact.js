@@ -26,7 +26,6 @@ class Contact extends Component {
               name="contact"
               data-netlify="true"
               data-netlify-honeypot="bot-field"
-              netlify
             >
               <br />
               <div className="form-group">
