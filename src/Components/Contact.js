@@ -22,23 +22,22 @@ class Contact extends Component {
             <h2>Contact Me</h2>
             <hr />
             <form
-              method="POST"
               name="contact"
+              method="post"
               data-netlify="true"
               data-netlify-honeypot="bot-field"
             >
               <br />
               <div className="form-group">
                 <input
+                  name="name"
                   type="text"
                   className="form-control"
-                  id="name"
-                  name="name"
                   placeholder="Name"
                   required
                 />
               </div>
-              <div className="form-group">
+              {/* <div className="form-group">
                 <input
                   type="email"
                   className="form-control"
@@ -78,7 +77,7 @@ class Contact extends Component {
                   rows="7"
                   name="message"
                 />
-              </div>
+              </div> */}
               <button
                 // type="submit"
                 id="submit"
