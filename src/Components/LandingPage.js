@@ -21,21 +21,31 @@ class LandingPage extends Component {
                 <a
                   href="https://www.linkedin.com/in/dan-chamorro-071346176/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <i className="fa fa-linkedin-square" aria-hidden="true" />
                 </a>
                 {/* Githb */}
-                <a href="https://github.com/danchamorro" target="_blank">
+                <a
+                  href="https://github.com/danchamorro"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i className="fa fa-github-square" aria-hidden="true" />
                 </a>
                 {/* Twitter */}
-                <a href="https://twitter.com/danchamorro" target="_blank">
+                <a
+                  href="https://twitter.com/danchamorro"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i className="fa fa-twitter-square" aria-hidden="true" />
                 </a>
                 {/* Facebook */}
                 <a
                   href="https://www.facebook.com/daniel.chamorro.9085"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <i className="fa fa-facebook-square" aria-hidden="true" />
                 </a>
