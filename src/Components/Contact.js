@@ -89,25 +89,63 @@ class Contact extends Component {
               </button>
             </form> */}
             <form name="contact" method="post">
-              <input type="hidden" name="form-name" value="contact" />
-              <p>
-                <label>
-                  Your Name: <input type="text" name="name" />
-                </label>
-              </p>
-              <p>
-                <label>
-                  Your Email: <input type="email" name="email" />
-                </label>
-              </p>
-              <p>
-                <label>
-                  Message: <textarea name="message" />
-                </label>
-              </p>
-              <p>
-                <button type="submit">Send</button>
-              </p>
+              <div className="form-group">
+                <input type="hidden" name="form-name" value="contact" />
+              </div>
+              {/* Name */}
+              <div className="form-group">
+                <input
+                  type="text"
+                  name="name"
+                  className="form-control"
+                  placeholder="Name"
+                  required
+                />
+              </div>
+              {/* Email */}
+              <div className="form-group">
+                <input
+                  type="email"
+                  name="email"
+                  className="form-control"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+              {/* Phone */}
+              <div className="form-group">
+                <input
+                  type="text"
+                  name="phone"
+                  className="form-control"
+                  placeholder="Mobile Number"
+                  required
+                />
+              </div>
+              {/* Subject */}
+              <div className="form-group">
+                <input
+                  type="text"
+                  name="subject"
+                  className="form-control"
+                  placeholder="Subject"
+                  required
+                />
+              </div>
+              {/* Message */}
+
+              <div className="form-group">
+                <textarea
+                  name="message"
+                  className="form-control"
+                  placeholder="Message"
+                  maxLength="140"
+                  rows="7"
+                />
+              </div>
+              <button type="submit" className="btn btn-dark">
+                Send
+              </button>
             </form>
           </Cell>
         </Grid>
