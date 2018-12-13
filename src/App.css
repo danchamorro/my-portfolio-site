@@ -86,6 +86,11 @@
   text-decoration: none;
 }
 
+.title:hover {
+  color: white;
+  text-decoration: none;
+}
+
 .projects-grid {
   display: flex;
 }
