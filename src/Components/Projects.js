@@ -32,17 +32,25 @@ class Projects extends Component {
                   "url(https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover"
               }}
             >
-              React Project #1
+              Auto-Invoicer
             </CardTitle>
             <CardText>
-              Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
-              dui. Cras ultricies ligula sed magna dictum porta. Sed porttitor
-              lectus nibh. Vivamus magna justo, lacinia eget consectetur sed,
-              convallis at tellus.
+              Auto-Invoicer is a MERN stack application. Due to the potential
+              for high usage at key times of the year (e.g. the end of each
+              quarter, the end of the fiscal year), MERN stack will offer the
+              greatest uptime and concurrency handling.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>Live Demo</Button>
+              <Button
+                colored
+                href="https://github.com/Lambda-School-Labs/Labs8-AutoInvoicer/"
+                target="_blank"
+              >
+                GitHub
+              </Button>
+              <Button colored href="https://auto-invoicer.com/" target="_blank">
+                Live Demo
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
